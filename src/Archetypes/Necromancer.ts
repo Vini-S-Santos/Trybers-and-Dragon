@@ -1,7 +1,7 @@
 import { EnergyType } from '../Energy';
 import Archetype from './Archetype';
 
-class Necromancer extends Archetype {
+export default class Necromancer extends Archetype {
   private static counter = 0;
 
   constructor(
@@ -20,5 +20,3 @@ class Necromancer extends Archetype {
     return Necromancer.counter;
   }
 }
-
-export default Necromancer;

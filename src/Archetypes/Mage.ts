@@ -1,7 +1,7 @@
 import { EnergyType } from '../Energy';
 import Archetype from './Archetype';
 
-class Mage extends Archetype {
+export default class Mage extends Archetype {
   private static counter = 0;
   constructor(
     name: string,
@@ -19,5 +19,3 @@ class Mage extends Archetype {
     return Mage.counter;
   }
 }
-
-export default Mage;

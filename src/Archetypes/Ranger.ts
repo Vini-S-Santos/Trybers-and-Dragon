@@ -1,7 +1,7 @@
 import { EnergyType } from '../Energy';
 import Archetype from './Archetype';
 
-class Ranger extends Archetype {
+export default class Ranger extends Archetype {
   private static counter = 0;
 
   constructor(
@@ -20,5 +20,3 @@ class Ranger extends Archetype {
     return Ranger.counter;
   }
 }
-
-export default Ranger;
